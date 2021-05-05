@@ -1,0 +1,20 @@
+{
+  "name": "form-recognizer-api-v2-1-preview-3",
+  "version": "v2.1-preview.3",
+  "description": "Form Recognizer extracts information from forms and images into structured data.  It includes the following options:  * Form - Extracts information from forms (PDFs and images) into structured data based on a model created from a set of representative training forms. Form Recognizer learns the structure of your forms to intelligently extract text and data. It ingests text from forms, applies machine learning technology to identify keys, tables, and fields, and then outputs structured data that includes the relationships within the original file.  * Receipt - Detects and extracts data from receipts using optical character recognition (OCR) and our receipt model, enabling you to easily extract structured data from receipts such as merchant name, merchant phone number, transaction date, transaction total, and more.  * Business Card - Detects and extracts data from business cards using optical character recognition (OCR) and our business card model, enabling you to easily extract structured data from business cards such as contact names, company names, phone numbers, emails, and more.  * Layout - Extracts text and table structure from documents using optical character recognition (OCR).  * Invoices - Detects and extracts data from invoices using optical character recognition (OCR) and our invoice understanding deep learning models, enabling you to easily extract structured data from invoices such as customer, vendor, invoice ID, invoice due date, total, invoice amount due, tax amount, ship to, bill to, line items and more.  * ID Documents - Detects and extracts data from identification documents using optical character recognition (OCR) and our ID document model, enabling you to easily extract structured data from ID documents such as first name, last name, date of birth, document number, and more.",
+  "main": "index.js",
+  "scripts": {
+	"prestart": "npm install",
+	"start": "node index.js"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "connect": "^3.2.0",
+    "js-yaml": "^3.3.0",
+    "swagger-tools": "0.10.1"
+  }
+}
